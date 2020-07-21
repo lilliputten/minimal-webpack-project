@@ -1,0 +1,14 @@
+/** @module Title.pcss
+ *  @since 2020.05.19, 17:16
+ *  @changed 2020.05.27, 22:58
+ */
+
+@import '../constants.pcss';
+
+.Hello {
+  &-Title {
+    min-height: $imgSize;
+    padding-left: @calc($imgSize + $imgPadding * 2);
+    text-decoration: underline;
+  }
+}

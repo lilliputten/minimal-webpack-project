@@ -10,6 +10,8 @@ import { cn } from '@bem-react/classname'
 
 import ImageFile from './img/LockColor2.svg'
 
+import './Image.pcss'
+
 const cnHello = cn('Hello')
 
 export default () => {

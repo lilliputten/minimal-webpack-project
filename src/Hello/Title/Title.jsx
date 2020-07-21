@@ -7,6 +7,8 @@
 import React from 'react'
 import { cn } from '@bem-react/classname'
 
+import './Title.pcss'
+
 const cnHello = cn('Hello')
 
 export default ({ greeting, name }) => (
