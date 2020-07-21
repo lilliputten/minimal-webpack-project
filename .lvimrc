@@ -1,0 +1,20 @@
+" vim local configuration file
+" @changed 2019.09.25, 22:30
+
+"-- LINTERS --
+
+let g:ale_linters = {
+\   'javascript': [ 'eslint' ],
+\   'less': [ 'stylelint' ],
+\   'pcss': [ 'stylelint' ],
+\}
+
+let g:ale_css_stylelint_options = '--syntax scss'
+let g:ale_stylus_stylelint_options = '--syntax scss'
+let g:ale_postcss_stylelint_options = '--syntax scss'
+let g:ale_less_stylelint_options = '--syntax scss'
+
+" Add exclusions for Ctrl-P lookup
+" See Plugins.vim, CtrlP section
+" let g:ctrlp_custom_ignore['dir'] = substitute(g:ctrlp_custom_ignore['dir'], ')\$', "|src.demo|icon-sprites-src|!Work|!Patches|!Docs|!ARC*|!UNUSED|debug-data)$", "g")
+let g:ctrlp_custom_ignore['file'] = substitute(g:ctrlp_custom_ignore['file'], '))\$', "|session)|build-tag.txt|.svg|.png)$", "g")

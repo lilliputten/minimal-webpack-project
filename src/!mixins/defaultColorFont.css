@@ -1,0 +1,7 @@
+@define-mixin defaultFont {
+  font-family: $defaultFont;
+  font-size: $(defaultFontSize)px;
+  font-weight: $defaultFontWeight;
+  line-height: $defaultLineHeight;
+  color: $textColor;
+}

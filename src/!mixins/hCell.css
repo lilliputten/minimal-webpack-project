@@ -1,0 +1,10 @@
+@define-mixin hCell $padding:$(containerPadding)px {
+  padding-left: $padding;
+  padding-right: $padding;
+  position: relative;
+  min-height: 1px;
+  max-width: 100%;
+  /* width: 100%; */
+  /* flex-basis: 0; */
+  /* flex-grow: 1; */
+}

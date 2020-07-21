@@ -1,0 +1,11 @@
+@define-mixin hContainer $padding:$(containerPadding)px {
+  /* width: 100%; */
+  padding-left: $padding;
+  padding-right: $padding;
+  margin-right: auto;
+  margin-left: auto;
+  /* @mixin debug green; */
+  /* margin-left: -$padding; */
+  /* margin-right: -$padding; */
+  /* padding: auto; */
+}

@@ -1,0 +1,23 @@
+<!--
+ @changed 2020.07.21, 16:14
+-->
+
+# Project environment
+
+- `package.json`
+- `babel.config.js`
+- `webpack.config.js`
+- `.eslintrc.js`
+- `.lvimrc`
+- `.git/config`
+
+# Project config
+
+- `src/config/config.js`
+- `src/config/cssjs`
+- `src/config/app.js`
+- `src/config/constants.js`
+
+## Source file extensions (for search & replace)
+
+`*.js,*.jsx,*.ts,*.tsx,*.less,*.pcss,*.css,*.json,*.md,*.txt`

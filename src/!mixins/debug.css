@@ -1,0 +1,4 @@
+@define-mixin debug $color:red, $size:1px {
+  /*DEBUG-BEGIN debug:box-shadow * box-shadow: inset 0 0 0 1px color($color alpha($opacity)); * DEBUG-END*/
+  /*DEBUG-BEGIN debug:border */ border: $size solid $color; /* DEBUG-END*/
+}

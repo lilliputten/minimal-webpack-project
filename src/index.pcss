@@ -1,0 +1,42 @@
+/** @module demo.pcss
+ *  @desc Demo app entry point
+ *  @since 2020.05.19, 17:16
+ *  @changed 2020.05.27, 22:58
+ */
+
+body {
+  // margin: 0;
+  // padding: 0;
+  table,
+  & {
+    @mixin defaultFont;
+    // font-size: 30px; // DEBUG
+    color: $defaultTextColor;
+  }
+  background-color: $bodyBgColor;
+
+}
+body, html {
+  overflow: hidden;
+}
+
+// // TODO: ANTGalio?
+// html, body, .App, .App__Container, .Page, .Page__Container {
+//   position: absolute; // ???
+//   top: 0;
+//   bottom: 0;
+//   left: 0;
+//   right: 0;
+// }
+// .Page__Container {
+//   position: absolute;
+// }
+.hContainer {
+  @mixin hContainer;
+}
+.hRow {
+  @mixin hRow;
+}
+.hCell {
+  @mixin hCell;
+}
