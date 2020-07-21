@@ -38,3 +38,6 @@ Update & push `publish` repository:
 npm run -s publish
 ```
 
+## Try to edit source files
+
+Open and edit files in `src` folder.
